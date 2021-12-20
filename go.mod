@@ -1,4 +1,4 @@
-module beego-form
+module new-beego-form
 
 go 1.16
 

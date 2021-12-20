@@ -12,7 +12,7 @@
   </head>
   <body class="container">
     <h2 class="mt-5 text-info text-center fw-bold">Please Register First</h2>
-    <form class="mt-5" action="/" method="POST">
+    <form class="my-5" action="/" method="POST">
       <div class="mb-3">
         <label class="form-label">First Name</label>
         <input type="text" class="form-control" id="inputFirstName" name="inputFirstName" Required>
@@ -31,24 +31,24 @@
 
       <div class="mb-3">
         <label class="form-label">Phone</label>
-        <input type="number" class="form-control" id="inputPhone" name="inputPhone" Required>
+        <input type="number" class="form-control" id="inputPhone" name="inputPhone" Required placeholder="01*********">
       </div>
 
       <div class="mb-3">
         <label class="form-label">Password</label>
-        <input type="password" class="form-control" id="inputPassword" name="inputPassword" Required>
+        <input type="password" class="form-control" id="inputPassword" name="inputPassword" Required placeholder="Min 4 characters">
       </div>
 
       <div class="mb-3">
         <label class="form-label">Date of Birth</label>
-        <input type="date" class="form-control" id="inputDate" name="inputDate" Required>
+        <input type="text" class="form-control" id="inputDate" name="inputDate" Required placeholder="dd/mm/yy example: 29/04/1998">
       </div>
 
       <div class="my-3 alert-danger" role="alert">
         <p> {{.Desc}} </p>
       </div>
 
-      <button type="submit" onClick="myFunction()" class="btn btn-primary">Submit</button>
+      <button type="submit" class="btn btn-primary">Submit</button>
     </form>
 
     <!-- Optional JavaScript; choose one of the two! -->
